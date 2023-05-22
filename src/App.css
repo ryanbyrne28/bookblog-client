@@ -1,0 +1,102 @@
+.App {
+  text-align: center;
+}
+
+.App-logo {
+  animation: App-logo-spin infinite 20s linear;
+  height: 40vmin;
+  pointer-events: none;
+}
+
+.App-header {
+  background: rgb(69,68,75);
+background: radial-gradient(circle, rgba(69,68,75,1) 0%, rgba(108,24,34,1) 59%, rgba(157,17,43,0.9895833333333334) 97%);
+  min-height: 100vh;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  font-size: calc(10px + 2vmin);
+  color: white;
+}
+
+.App-link {
+  color: yellow;
+}
+
+@keyframes App-logo-spin {
+  from {
+    transform: rotate(0deg);
+  }
+  to {
+    transform: rotate(360deg);
+  }
+}
+
+.CreateBook {
+  background: rgb(69,68,75);
+background: radial-gradient(circle, rgba(69,68,75,1) 0%, rgba(94,0,12,1) 59%, rgba(177,1,1,0.9895833333333334) 97%);
+  min-height: 100vh;
+  color: white;
+}
+
+.ShowBookDetails {
+  background: rgb(69,68,75);
+background: radial-gradient(circle, rgba(69,68,75,1) 0%, rgba(94,0,12,1) 59%, rgba(177,1,1,0.9895833333333334) 97%);
+  min-height: 100vh;
+  color: white;
+}
+
+.UpdateBookInfo {
+  background: rgb(69,68,75);
+background: radial-gradient(circle, rgba(69,68,75,1) 0%, rgba(94,0,12,1) 59%, rgba(177,1,1,0.9895833333333334) 97%);
+  min-height: 100vh;
+  color: white;
+}
+
+.ShowBookList {
+  background: rgb(69,68,75);
+background: radial-gradient(circle, rgba(69,68,75,1) 0%, rgba(94,0,12,1) 59%, rgba(177,1,1,0.9895833333333334) 97%);
+  height: 100%;
+  width: 100%;
+  min-height: 100vh;
+  min-width: 100px;
+  color: white;
+}
+
+
+.list {
+  display: grid;
+  margin: 20px 0 50px 0;
+  grid-template-columns: repeat(4, 1fr);
+  grid-auto-rows: 1fr;
+  grid-gap: 2em;
+}
+
+.card-container {
+  width: 250px;
+  border: 1px solid rgb(243, 223, 4);
+  margin: 0 auto;
+  border-radius: 5px;
+  overflow: hidden;
+}
+
+.desc {
+  height: 130px;
+  padding: 10px;
+}
+
+.desc h2 {
+  font-size: 1em;
+  font-weight: 400;
+}
+
+.desc h3, p {
+  font-weight: 300;
+}
+
+.desc h3 {
+  color: #f6f7f8;
+  font-size: 1em;
+  padding: 10px 0 10px 0;
+}
